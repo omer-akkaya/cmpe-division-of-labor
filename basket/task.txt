@@ -1,0 +1,30 @@
+create a database from localhost/phpmyadmin named basket
+
+create 4 columns 
+id (int, primary key), product_name(varchar(50)), product_price(int), quantity(int), subtotal(int), user_id 
+
+insert two items
+(1,Parol,10,3,30,1)
+(2,Apranax Fort,20,4,80,1)
+
+create folder \api (connecting, writing, reading with database and all server side logic will be done in this folder.)
+
+create folder styles (this folder will contain css files)
+
+create folder \js (this folder will contain jquery (client side logic))
+
+create file api\basket.php
+
+in api\basket.php connect to the database. get all data from database. create endpoint for sending data. 
+
+in index.php get data from \api\basket.php endpoint with jquery and log to console.
+
+display basket data in index.php with html and css according to the reference image.
+
+add remove from basket functionality.
+
+add increase-decrease functionality.
+
+add hover effects. 
+
+add onclick functionality to single item. on click user should be redirected to product page with jquery. use product id. 

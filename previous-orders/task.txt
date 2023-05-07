@@ -1,0 +1,26 @@
+create a database from localhost/phpmyadmin named previous-orders
+
+create 4 columns 
+id (int, primary key), product_name(varchar(50)), product_price(int), quantity(int), subtotal(int), user_id 
+
+insert two items
+(1,Parol,10,3,30,1)
+(2,Apranax Fort,10,3,30,1)
+
+create folder \api (connecting, writing, reading with database and all server side logic will be done in this folder.)
+
+create folder \styles (this folder will contain css files)
+
+create folder \js (this folder will contain jquery (client side logic))
+
+create file \api\previous-orders.php
+
+in \api\previous-orders.php connect to the database. create endpoint for sending previous order data. 
+
+in index.php get data from \api\previous-orders.php get all data from database. create endpoint for sending data. 
+
+display previous-order data in index.php with html and css. 
+
+add hover effects. 
+
+add onclick functionality to single product. on click user should be redirected to product page with jquery. use product id. 

@@ -1,0 +1,24 @@
+create a database from localhost/phpmyadmin named profile
+
+create 4 columns 
+id (int, primary key), name(varchar(50)), surname(varchar(50)), email(varchar(50)), mobile(varchar(50)) 
+
+insert item 
+(1, omer, akkaya, omer@akkaya.com, 05555555555)
+
+create folder \api (connecting, writing, reading with database and all server side logic will be done in this folder.)
+
+create folder \styles (this folder will contain css files)
+
+create folder \js (this folder will contain jquery (client side logic))
+
+create file \api\user.php
+
+in \api\user.php connect to the database. get all data from database. create endpoint for sending data. 
+
+in index.php get data from \api\user.php endpoint with jquery and log to console.
+
+display user info in a form according to reference image.
+
+add update user information functionality.
+

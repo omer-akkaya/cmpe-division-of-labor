@@ -1,0 +1,26 @@
+create a database from localhost/phpmyadmin named category
+
+create 4 columns 
+id (int, primary key), name(varchar(50))
+
+insert two items
+(1,Painkiller)
+(1,Heart Disease)
+
+create folder \api (connecting, writing, reading with database and all server side logic will be done in this folder.)
+
+create folder \styles (this folder will contain css files)
+
+create folder \js (this folder will contain jquery (client side logic))
+
+create file \api\category.php
+
+in \api\category.php connect to the database. get all data from database. create endpoint for sending data. 
+
+in index.php get data from \api\basket.php endpoint with jquery and log to console.
+
+display categories data in index.php with html and css according to the reference image.
+
+add hover effects. 
+
+add onclick functionality to single product. on click user should be redirected to product page with jquery. use product id. 
