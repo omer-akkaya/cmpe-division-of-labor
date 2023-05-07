@@ -1,7 +1,7 @@
 create a database from localhost/phpmyadmin named previous-orders
 
 create 4 columns 
-id (int, primary key), product_name(varchar(50)), product_price(int), quantity(int), subtotal(int), user_id 
+id (int, primary key), product_name(varchar(50)), product_price(int), quantity(int), subtotal(int), user_id
 
 insert two items
 (1,Parol,10,3,30,1)
